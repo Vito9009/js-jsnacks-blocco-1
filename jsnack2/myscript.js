@@ -15,6 +15,6 @@ for (let i = 0; i < number; i++){
         const randomNumber = Math.floor(Math.random() * 100 + 1); // i 10 numeri creati verranno presi in modo randomico tra quelli compresi tra 1 e 100
         myArray.push(randomNumber); // push dei numeri random creati
     }
-    document.write(myArray, " /// "); // stampa delle array con i numeri nel file HTML
+    document.write("<div>" + myArray + "</div>"); // stampa delle array con i numeri nel file HTML
     console.log(myArray); // stampa delle array con i numeri in console
 }

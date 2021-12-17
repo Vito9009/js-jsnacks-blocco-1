@@ -22,10 +22,10 @@ redOdd.classList.add("red");
 for (let i = 0; i < myArray.length; i++){ // ciclo for
     if(i %2 == 1){  // se i numeri sono pari
         evenNumber.push(myArray[i]);
-        greenEven.innerHTML += myArray[i];
+        greenEven.innerHTML += myArray[i] + " ";
     }else{ // se i numeri sono dispari
         oddNumber.push(myArray[i]);
-        redOdd.innerHTML += myArray[i];
+        redOdd.innerHTML += myArray[i] + " ";
     }
 }
 
